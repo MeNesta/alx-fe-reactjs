@@ -1,4 +1,4 @@
-import UserContext from './UserContext';   // Correct path
+import UserContext from './UserContext';  
 import ProfilePage from './ProfilePage';
 
 function App() {
