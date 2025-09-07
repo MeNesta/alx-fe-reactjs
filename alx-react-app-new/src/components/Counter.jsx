@@ -25,11 +25,12 @@ function Counter() {
       </button>
 
       <button 
-        onClick={() => setCount(0)} 
-        style={{ padding: '10px 20px', margin: '5px', backgroundColor: 'red', color: 'white', border: 'none', borderRadius: '5px' }}
-      >
-        Reset
-      </button>
+  onClick={() => setCount(count > 0 ? count - 1 : 0)} 
+  style={{ padding: '10px 20px', margin: '5px', backgroundColor: 'orange', color: 'white', border: 'none', borderRadius: '5px' }}
+>
+  Decrement
+</button>
+
     </div>
   );
 }
